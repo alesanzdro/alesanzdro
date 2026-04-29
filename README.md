@@ -44,10 +44,10 @@ EPILIMS is my main ongoing project: a multi-container web application that centr
 
 | Pipeline | Stack | Description |
 |---|---|---|
-| 🧫 [**epitaxmag**](https://github.com/alesanzdro/epitaxmag) | Nextflow DSL2 · Nanopore | Modular environmental metagenomics pipeline: multi-tool taxonomic profiling, MAG recovery, virulence screening and AMR linkage. |
-| 🧬 [**epicandi**](https://github.com/alesanzdro/epicandi) | Snakemake · Illumina + ONT | WGS surveillance pipeline for *Candida auris* (assembly, polishing, annotation, AMR mutations, alternative genetic code). |
-| 🦠 [**epibac**](https://github.com/EpiMol/epibac) | Snakemake · Python | Bacterial genomic analysis pipeline: assembly, MLST, virulence and antimicrobial resistance characterisation. |
-| 🥩 [**DGSPefsa**](https://github.com/alesanzdro/DGSPefsa) | Python · Bash | Foodborne pathogen surveillance — supporting routine reporting in collaboration with public-health authorities. |
+| [**epitaxmag**](https://github.com/alesanzdro/epitaxmag) | Nextflow DSL2 · Nanopore | Modular environmental metagenomics pipeline: multi-tool taxonomic profiling, MAG recovery, virulence screening and AMR linkage. |
+| [**epicandi**](https://github.com/alesanzdro/epicandi) | Snakemake · Illumina + ONT | WGS surveillance pipeline for *Candida auris* (assembly, polishing, annotation, AMR mutations, alternative genetic code). |
+| [**epibac**](https://github.com/EpiMol/epibac) | Snakemake · Python | Bacterial genomic analysis pipeline: assembly, MLST, virulence and antimicrobial resistance characterisation. |
+| [**DGSPefsa**](https://github.com/alesanzdro/DGSPefsa) | Python · Bash | Foodborne pathogen surveillance — supporting routine reporting in collaboration with public-health authorities. |
 
 ---
 
