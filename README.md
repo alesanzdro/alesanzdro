@@ -20,10 +20,10 @@ I'm a bioinformatician with **10+ years of experience** in genomic data analysis
 
 I tend to identify as a problem solver — whether that means recovering a failed system at 11 pm, debugging an obscure pipeline error, or tracking down why a 10 GbE link suddenly stopped behaving. I care about solutions that are **robust, reproducible, and useful for the people who actually have to run them**.
 
-- 🦠 Currently working on respiratory viruses (**SARS‑CoV‑2, Influenza, RSV**) and antimicrobial resistance in clinical and foodborne pathogens, including ***Candida auris***.
-- 🧪 Previously: **WGS / WES + CNV analysis on FFPE prostate cancer** samples at **CNIO** under a US Department of Defense contract; transcriptomics & miRNA regulatory networks at **I2SysBio**.
-- ⚗️ Hands‑on experience with **Nanopore (MinION / PromethION)** and **Illumina (MiSeq / NextSeq)**, plus epigenomics (modified base detection in *Neisseria gonorrhoeae*).
-- 🖧 Day‑job sysadmin for shared HPC servers (storage, GPU basecalling, NFS, Samba, networking, user management).
+- Currently working on respiratory viruses (**SARS‑CoV‑2, Influenza, RSV**) and antimicrobial resistance in clinical and foodborne pathogens, including ***Candida auris***.
+- Previously: **WGS / WES + CNV analysis on FFPE prostate cancer** samples at **CNIO** under a US Department of Defense contract; transcriptomics & miRNA regulatory networks at **I2SysBio**.
+- Hands‑on experience with **Nanopore (MinION / PromethION)** and **Illumina (MiSeq / NextSeq)**, plus epigenomics (modified base detection in *Neisseria gonorrhoeae*).
+- Day‑job sysadmin for shared HPC servers (storage, GPU basecalling, NFS, Samba, networking, user management).
 
 ---
 
