@@ -33,10 +33,10 @@ I tend to identify as a problem solver — whether that means recovering a faile
 
 EPILIMS is my main ongoing project: a multi-container web application that centralises the full sample lifecycle — from reception and wet-lab tracking, to sequencing runs, to bioinformatic results across viral, bacterial and fungal pipelines.
 
-- 🐳 **Multi-container architecture** — Django web app, PostgreSQL database, reverse proxy, background workers, and pipeline integration, all orchestrated via Docker.
-- 🔐 **Designed for sensitive clinical data** — role-based access (lab, bioinformatics, hospital read-only), audit trail, and protection of personally identifiable patient information in compliance with GDPR / LOPDGDD.
-- 🧬 **Built around real surveillance workflows** — supports multiple pipelines per sequencing run, hybrid Illumina + Nanopore data, lineage assignment, AMR profiling, and per-hospital dashboards.
-- 🗄️ **40+ tables, normalised schema** — patients, samples, wet-lab extractions, sequencing runs, pipeline executions and results, with materialised views for fast hospital-facing reporting.
+- **Multi-container architecture** — Django web app, PostgreSQL database, reverse proxy, background workers, and pipeline integration, all orchestrated via Docker.
+- **Designed for sensitive clinical data** — role-based access (lab, bioinformatics, hospital read-only), audit trail, and protection of personally identifiable patient information in compliance with GDPR / LOPDGDD.
+- **Built around real surveillance workflows** — supports multiple pipelines per sequencing run, hybrid Illumina + Nanopore data, lineage assignment, AMR profiling, and per-hospital dashboards.
+- **40+ tables, normalised schema** — patients, samples, wet-lab extractions, sequencing runs, pipeline executions and results, with materialised views for fast hospital-facing reporting.
 
 ---
 
@@ -72,12 +72,21 @@ EPILIMS is my main ongoing project: a multi-container web application that centr
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-**AI & LLM tooling**
+**AI & LLM — providers and models**
 
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI%20%2F%20GPT-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Hugging%20Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Llama](https://img.shields.io/badge/Llama%20%2F%20Qwen%20%2F%20Mistral-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+
+**Agentic development & ML**
+
 ![Claude%20Code](https://img.shields.io/badge/Claude%20Code-1F1F1F?style=for-the-badge&logo=anthropic&logoColor=D97757)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-6E40C9?style=for-the-badge&logo=anthropic&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
 **Containers, environments & HPC**
@@ -99,27 +108,27 @@ EPILIMS is my main ongoing project: a multi-container web application that centr
 
 ### 🧠 Areas of expertise
 
-- 🧬 **Sequencing** — end‑to‑end Nanopore (MinION / PromethION) and Illumina (MiSeq / NextSeq) workflows, including duplex basecalling and modified base calling
-- 🔬 **Variant analysis** — germline, somatic and CNV calling, including challenging FFPE samples
-- 🧫 **Pathogen genomics** — viral lineage assignment, AMR, MLST, phylogenetics, outbreak investigation
-- 🧪 **Epigenomics** — methylation calling and modified base detection
-- ⚙️ **Pipeline engineering** — Nextflow DSL2 & Snakemake, parallelization strategies, reproducible environments
-- 🌐 **Full-stack development** — Django / FastAPI web apps with PostgreSQL backends, deployed in Docker
-- 🤖 **AI-assisted engineering** — agentic coding workflows with Claude Code, custom MCP servers and integrations, LLM-powered automation for pipeline scaffolding, code review, and internal tooling. Comfortable embedding deep-learning components (e.g. neural basecallers, ML-based variant callers) into production pipelines.
-- 🖥️ **HPC sysadmin** — SLURM, Lmod, conda/mamba, Docker / Singularity, NFS, Samba, RAID storage, networking
-- 🚑 **Troubleshooting** — pipelines, systems, networks, the occasional human
+- **Sequencing** — end‑to‑end Nanopore (MinION / PromethION) and Illumina (MiSeq / NextSeq) workflows, including duplex basecalling and modified base calling
+- **Variant analysis** — germline, somatic and CNV calling, including challenging FFPE samples
+- **Pathogen genomics** — viral lineage assignment, AMR, MLST, phylogenetics, outbreak investigation
+- **Epigenomics** — methylation calling and modified base detection
+- **Pipeline engineering** — Nextflow DSL2 & Snakemake, parallelization strategies, reproducible environments
+- **Full-stack development** — Django / FastAPI web apps with PostgreSQL backends, deployed in Docker
+- **AI-assisted engineering** — daily multi-provider LLM workflow (Claude, ChatGPT/OpenAI, Gemini, DeepSeek) and self-hosted open-weight models via **Ollama** (Llama, Qwen, Mistral, DeepSeek-Coder, Gemma). Hands-on **prompt engineering**, agentic coding with **Claude Code** and **Cursor**, custom **MCP servers** and integrations, and LLM-powered automation for pipeline scaffolding, code review and internal tooling. Comfortable embedding deep-learning components (neural basecallers, ML-based variant callers) into production bioinformatics pipelines.
+- **HPC sysadmin** — SLURM, Lmod, conda/mamba, Docker / Singularity, NFS, Samba, RAID storage, networking
+- **Troubleshooting** — pipelines, systems, networks, the occasional human
 
 ---
 
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=alesanzdro&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=alesanzdro&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alesanzdro&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=alesanzdro&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=alesanzdro&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
