@@ -21,21 +21,33 @@ I'm a bioinformatician with **10+ years of experience** in genomic data analysis
 I tend to identify as a problem solver — whether that means recovering a failed system at 11 pm, debugging an obscure pipeline error, or tracking down why a 10 GbE link suddenly stopped behaving. I care about solutions that are **robust, reproducible, and useful for the people who actually have to run them**.
 
 - 🦠 Currently working on respiratory viruses (**SARS‑CoV‑2, Influenza, RSV**) and antimicrobial resistance in clinical and foodborne pathogens, including ***Candida auris***.
-- 🏥 Architected an in‑house **LIMS** (web app + containerized PostgreSQL) to scale genomic surveillance across hospitals.
 - 🧪 Previously: **WGS / WES + CNV analysis on FFPE prostate cancer** samples at **CNIO** under a US Department of Defense contract; transcriptomics & miRNA regulatory networks at **I2SysBio**.
 - ⚗️ Hands‑on experience with **Nanopore (MinION / PromethION)** and **Illumina (MiSeq / NextSeq)**, plus epigenomics (modified base detection in *Neisseria gonorrhoeae*).
 - 🖧 Day‑job sysadmin for shared HPC servers (storage, GPU basecalling, NFS, Samba, networking, user management).
 
 ---
 
-### 🚀 What I'm building right now
+### ⭐ Flagship project — EPILIMS
 
-| Project | Stack | What it does |
+> **A complete LIMS platform for molecular epidemiology**, designed and built from scratch to scale genomic surveillance across hospitals of the Valencian Community.
+
+EPILIMS is my main ongoing project: a multi-container web application that centralises the full sample lifecycle — from reception and wet-lab tracking, to sequencing runs, to bioinformatic results across viral, bacterial and fungal pipelines.
+
+- 🐳 **Multi-container architecture** — Django web app, PostgreSQL database, reverse proxy, background workers, and pipeline integration, all orchestrated via Docker.
+- 🔐 **Designed for sensitive clinical data** — role-based access (lab, bioinformatics, hospital read-only), audit trail, and protection of personally identifiable patient information in compliance with GDPR / LOPDGDD.
+- 🧬 **Built around real surveillance workflows** — supports multiple pipelines per sequencing run, hybrid Illumina + Nanopore data, lineage assignment, AMR profiling, and per-hospital dashboards.
+- 🗄️ **40+ tables, normalised schema** — patients, samples, wet-lab extractions, sequencing runs, pipeline executions and results, with materialised views for fast hospital-facing reporting.
+
+---
+
+### 🧪 Open-source pipelines
+
+| Pipeline | Stack | Description |
 |---|---|---|
-| **EpiTaxMAG** | Nextflow DSL2 · Nanopore | Modular pipeline for environmental metagenomics: multi‑tool taxonomic profiling, MAG recovery, virulence screening and AMR linkage. |
-| **EpiCandi** | Snakemake · Illumina + ONT | WGS surveillance pipeline for *Candida auris* (assembly, polishing, AMR mutations, alternative genetic code). |
-| **EPITOOLS** | Lmod · Miniforge3 | Modular bioinformatics annotation toolkit deployed on shared HPC. |
-| **ARTIC vs. QIAseq** | viralrecon · Cecret | Comparative benchmark of SARS‑CoV‑2 sequencing protocols (S‑gene dropout, normalization). |
+| 🧫 [**epitaxmag**](https://github.com/alesanzdro/epitaxmag) | Nextflow DSL2 · Nanopore | Modular environmental metagenomics pipeline: multi-tool taxonomic profiling, MAG recovery, virulence screening and AMR linkage. |
+| 🧬 [**epicandi**](https://github.com/alesanzdro/epicandi) | Snakemake · Illumina + ONT | WGS surveillance pipeline for *Candida auris* (assembly, polishing, annotation, AMR mutations, alternative genetic code). |
+| 🦠 [**epibac**](https://github.com/EpiMol/epibac) | Snakemake · Python | Bacterial genomic analysis pipeline: assembly, MLST, virulence and antimicrobial resistance characterisation. |
+| 🥩 [**DGSPefsa**](https://github.com/alesanzdro/DGSPefsa) | Python · Bash | Foodborne pathogen surveillance — supporting routine reporting in collaboration with public-health authorities. |
 
 ---
 
@@ -54,6 +66,20 @@ I tend to identify as a problem solver — whether that means recovering a faile
 ![Snakemake](https://img.shields.io/badge/Snakemake-039475?style=for-the-badge&logo=snakemake&logoColor=white)
 ![nf-core](https://img.shields.io/badge/nf--core-24B064?style=for-the-badge&logo=nextflow&logoColor=white)
 
+**Web & data**
+
+![Django](https://img.shields.io/badge/Django%205-092E20?style=for-the-badge&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+**AI & LLM tooling**
+
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Claude%20Code](https://img.shields.io/badge/Claude%20Code-1F1F1F?style=for-the-badge&logo=anthropic&logoColor=D97757)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-6E40C9?style=for-the-badge&logo=anthropic&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+
 **Containers, environments & HPC**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -65,7 +91,6 @@ I tend to identify as a problem solver — whether that means recovering a faile
 **Infrastructure & ops**
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub%20Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![NFS](https://img.shields.io/badge/NFS%20%2F%20Samba-EE0000?style=for-the-badge&logo=files&logoColor=white)
@@ -75,12 +100,13 @@ I tend to identify as a problem solver — whether that means recovering a faile
 ### 🧠 Areas of expertise
 
 - 🧬 **Sequencing** — end‑to‑end Nanopore (MinION / PromethION) and Illumina (MiSeq / NextSeq) workflows, including duplex basecalling and modified base calling
-- 🔬 **Variant analysis** — germline, somatic and CNV calling, including FFPE samples
+- 🔬 **Variant analysis** — germline, somatic and CNV calling, including challenging FFPE samples
 - 🧫 **Pathogen genomics** — viral lineage assignment, AMR, MLST, phylogenetics, outbreak investigation
 - 🧪 **Epigenomics** — methylation calling and modified base detection
 - ⚙️ **Pipeline engineering** — Nextflow DSL2 & Snakemake, parallelization strategies, reproducible environments
+- 🌐 **Full-stack development** — Django / FastAPI web apps with PostgreSQL backends, deployed in Docker
+- 🤖 **AI-assisted engineering** — agentic coding workflows with Claude Code, custom MCP servers and integrations, LLM-powered automation for pipeline scaffolding, code review, and internal tooling. Comfortable embedding deep-learning components (e.g. neural basecallers, ML-based variant callers) into production pipelines.
 - 🖥️ **HPC sysadmin** — SLURM, Lmod, conda/mamba, Docker / Singularity, NFS, Samba, RAID storage, networking
-- 📦 **Custom tooling** — LIMS, internal databases, automation around shared infrastructure
 - 🚑 **Troubleshooting** — pipelines, systems, networks, the occasional human
 
 ---
