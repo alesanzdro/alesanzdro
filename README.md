@@ -128,7 +128,11 @@ EPILIMS is my main ongoing project: a multi-container web application that centr
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=alesanzdro&theme=tokyonight&hide_border=true" />
+  <!-- Streak stats. If herokuapp ever stops working, swap the host for one of these mirrors:
+       - https://streak-stats.demolab.com/
+       - https://github-readme-streak-stats-eight.vercel.app/
+  -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=alesanzdro&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
@@ -137,8 +141,8 @@ EPILIMS is my main ongoing project: a multi-container web application that centr
 
 <p>
   <a href="https://github.com/alesanzdro"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/sanzcarbonell/?locale=es_ES"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <!-- Add or remove badges as you like -->
-  <!-- <a href="https://www.linkedin.com/in/your-handle/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a> -->
   <!-- <a href="https://orcid.org/0000-0000-0000-0000"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" /></a> -->
   <!-- <a href="mailto:you@fisabio.es"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a> -->
 </p>
